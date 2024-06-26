@@ -1,2 +1,2 @@
 # rsschool-cv
-[CV](https://github.com/Turpalt1/rsschool-cv/blob/gh-pages/cv.md "Резюме")
+[CV](https://Turpalt1.github.io/rsschool-cv/cv "Резюме")
