@@ -75,7 +75,7 @@ a:hover{
         display: block;
     }
 }
-/*  */
+/* main */
 .main{
     padding: 50px 10px;
 }
@@ -132,7 +132,7 @@ a:hover{
     transform: translateX(-50%);
     background-color: #829985;
 }
-/*  */
+/*   */
 .info {
     display: flex;
     flex-wrap: wrap;
@@ -203,4 +203,22 @@ a:hover{
     .block{
         width: 100%;
     }
+}
+/* footer */
+.footer{
+    background: #829985;
+    padding: 20px 5px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-left a {
+    color: #fff;
+}
+.footer-left p{
+    color: #fff;
+    margin-right: 10px;
+    display: inline-block;
 }
