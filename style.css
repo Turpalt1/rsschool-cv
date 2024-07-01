@@ -75,3 +75,132 @@ a:hover{
         display: block;
     }
 }
+/*  */
+.main{
+    padding: 50px 10px;
+}
+.profile{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.profile::before{
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: #d7d1c9;
+}
+.profile-foto{
+    width: 250px;
+}
+.profile-foto img{
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px;
+}
+.profile-name{
+    width: 300px;
+    text-align: center;
+}
+.profile-name h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #4d2323;
+    font-weight: 300;
+    position: relative;
+}
+.profile-name h3{
+    font-size: 22px;
+    font-weight: 300;
+    color: #5c5c5c;
+ 
+}
+.profile-name h2::before{
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 2px;
+    left: 50%;
+    bottom: -10px;
+    transform: translateX(-50%);
+    background-color: #829985;
+}
+/*  */
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #4d2323;
+}
+.info li {
+    font-size: 20px;
+    line-height: 32px;
+    padding-left: 20px;
+    position: relative;
+}
+.info li a, .info li span{
+    color: #829985;
+}
+.info li::before{
+    content: "";
+    position: absolute;
+    border: 2px solid #829985;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.summary{
+    font-size: 20px;
+    line-height: 28px;
+}
+.code {
+}
+.block {
+}
+.title {
+}
+.code-text {
+    font-size: 20px;
+    line-height: 32px;
+}
+.code-text pre{
+    font-family: monospace;
+}
+.block{
+    width: 45%;
+    position: relative;
+    padding: 10px 10px 35px;
+    border-bottom: 1px solid #000;
+}
+.block h3{
+    font-weight: 300;
+}
+
+.block:nth-last-child(1){
+    border-bottom: none;
+}
+.title{
+    color: #829985;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+@media(max-width:768px){
+    .block:nth-last-child(2){
+        border-bottom: 1px solid #000;
+    }
+}
+@media(max-width:768px){
+    .block{
+        width: 100%;
+    }
+}
